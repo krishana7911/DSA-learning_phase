@@ -1,4 +1,4 @@
-package com.krish.Stack.CustomStack;
+package com.krish.Stack;
 
 public class CustomStack {
     protected int[] data;
@@ -46,11 +46,11 @@ public class CustomStack {
         }
     }
 
-    private boolean isEmpty(){
+    public boolean isEmpty(){
         return top == -1;
     }
 
-    private boolean isFull(){
+    public boolean isFull(){
         return top == data.length - 1;
     }
 }

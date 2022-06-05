@@ -1,4 +1,4 @@
-package com.krish.Stack.CustomStack;
+package com.krish.Stack;
 
 public class DynamicStack extends CustomStack {
     public DynamicStack(){
